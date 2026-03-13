@@ -29,9 +29,10 @@ from rapidfuzz import process, fuzz
 # ------------------------- CONFIG -------------------------
 
 CONFIG = {
-    "workdir": r"D:\Workshop\音乐工作目录",
-    "library_dirname": "曲库",
-    "playlist_dirname": "歌单",
+    # 目录配置：请按实际情况修改
+    "workdir": r"D:\Workshop\音乐工作目录", 
+    "library_dirname": "Library",
+    "playlist_dirname": "Playlists",
     "output_dirname": "椒盐歌单_output",
     "report_dirname": "_report",
 
